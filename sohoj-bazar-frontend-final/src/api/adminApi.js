@@ -1,0 +1,1 @@
+import{api}from"./client";export const adminApi={dashboard:()=>api.get("/admin/dashboard"),orders:p=>api.get("/admin/orders",{params:p}),status:(id,d)=>api.patch(`/admin/orders/${id}/status`,d),customers:()=>api.get("/admin/customers")};

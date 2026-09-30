@@ -1,0 +1,1 @@
+import{api}from"./client";export const orderApi={create:d=>api.post("/orders",d),mine:()=>api.get("/orders/my"),get:id=>api.get(`/orders/${id}`),cancel:(id,reason)=>api.patch(`/orders/${id}/cancel`,{reason})};

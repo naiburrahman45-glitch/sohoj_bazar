@@ -1,0 +1,1 @@
+import{Link}from"react-router-dom";export default function NotFound(){return <div className="page container empty"><div>৪০৪</div><h1>পাতাটি পাওয়া যায়নি</h1><Link className="btn primary" to="/">হোমে ফিরুন</Link></div>}

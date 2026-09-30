@@ -1,0 +1,1 @@
+import{api}from"./client";export const productApi={list:p=>api.get("/products",{params:p}),get:id=>api.get(`/products/${id}`),create:d=>api.post("/products",d),update:(id,d)=>api.put(`/products/${id}`,d),remove:id=>api.delete(`/products/${id}`)};
